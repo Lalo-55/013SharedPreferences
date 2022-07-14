@@ -1,5 +1,7 @@
 package com.luismorales17106494.a013almacenamientodedatosmediantelaclasesharedpreferences
 
+import android.app.Activity
+import android.app.ActivityManager
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -39,6 +41,16 @@ Problema 2:
 Confeccionar un programa que permita administrar una agenda personal.
 Nuestra clave será el nombre de la persona.
  */
+
+/*
+Problema propuesto
+
+Realizar un programa que genere un número aleatorio entre 1 y 50, pedir que el operador lo adivine,
+informar si ganó o si el número es mayor o menor al ingresado. Cuando el operador lo adivine
+incrementar en uno el puntaje de juego. Cada vez que se ingrese a la aplicación mostrar el
+puntaje actual, es decir recordar el puntaje en un archivo de preferencias.
+
+ */
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -46,7 +58,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.btnProblema1.setOnClickListener(){
+        binding.btnProblema1.setOnClickListener() {
             val myIntent = Intent(
                 this,
                 ActivityProblema1::class.java
@@ -54,7 +66,20 @@ class MainActivity : AppCompatActivity() {
             startActivity(myIntent)
         }
 
+        binding.btnProblema2.setOnClickListener() {
+            val myIntet = Intent(
+                this,
+                ActivityProblema2::class.java
+            )
+            startActivity(myIntet)
+        }
+        binding.btnProblema3.setOnClickListener() {
+            startActivity(Intent(this,ActivityProblemaPropuesto::class.java))
+
+        }
 
 
     }
+
+
 }

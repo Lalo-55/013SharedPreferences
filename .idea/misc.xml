@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/nirva/OneDrive/Programacion Cursos/Android Studio/Ejercicios/Android Ya/013AlmacenamientodedatosmediantelaclaseSharedPreferences/app/src/main/res/layout/activity_main.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/nirva/OneDrive/Programacion Cursos/Android Studio/Ejercicios/Android Ya/013AlmacenamientodedatosmediantelaclaseSharedPreferences/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/nirva/OneDrive/Programacion Cursos/Android Studio/Ejercicios/Android Ya/013AlmacenamientodedatosmediantelaclaseSharedPreferences/app/src/main/res/layout/activity_problema1.xml" value="0.33" />
+        <entry key="..\:/Users/nirva/OneDrive/Programacion Cursos/Android Studio/Ejercicios/Android Ya/013AlmacenamientodedatosmediantelaclaseSharedPreferences/app/src/main/res/layout/activity_problema2.xml" value="0.33" />
+        <entry key="..\:/Users/nirva/OneDrive/Programacion Cursos/Android Studio/Ejercicios/Android Ya/013AlmacenamientodedatosmediantelaclaseSharedPreferences/app/src/main/res/layout/activity_problema_propuesto.xml" value="0.35" />
       </map>
     </option>
   </component>
