@@ -1,7 +1,5 @@
 package com.luismorales17106494.a013almacenamientodedatosmediantelaclasesharedpreferences
 
-import android.app.Activity
-import android.app.ActivityManager
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -74,7 +72,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(myIntet)
         }
         binding.btnProblema3.setOnClickListener() {
-            startActivity(Intent(this,ActivityProblemaPropuesto::class.java))
+            startActivity(Intent(this,ActivityProblema3::class.java))
 
         }
 

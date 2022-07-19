@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.013AlmacenamientoDeDatosMedianteLaClaseSharedPreferences">
         <activity
-            android:name=".ActivityProblemaPropuesto"
+            android:name=".ActivityProblema3"
             android:exported="false" />
         <activity
             android:name=".ActivityProblema2"
